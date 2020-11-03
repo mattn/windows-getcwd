@@ -3,7 +3,7 @@ SRCS = \
 
 OBJS = $(subst .c,.o,$(SRCS))
 
-CFLAGS = 
+CFLAGS = -Wall
 LIBS = 
 TARGET = windows-getcwd
 ifeq ($(OS),Windows_NT)
